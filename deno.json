@@ -1,11 +1,19 @@
 {
   "lock": false,
-  "tasks": {
-    "start": "deno run -A --watch=static/,routes/ dev.ts"
-  },
   "importMap": "./import_map.json",
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
+  },
+  "tasks": {
+    "start": "deno run -A --watch=static/,routes/ dev.ts"
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 120,
+    "indentWidth": 2,
+    "singleQuote": true,
+    "proseWrap": "always",
+    "include": ["components/", "islands/", "routes/"]
   }
 }
