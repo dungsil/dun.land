@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <>
-      <div className='flex flex-col justify-center items-center h-screen'>
+      <div className='flex flex-col justify-center items-center'>
         <h1 class='font-black text-[18vw] md:text-8xl leading-[1em] text-white'>
           <span>DUN</span>
           <span class='text-zinc-400'>GSIL</span>

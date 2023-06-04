@@ -8,11 +8,16 @@ export default function App({ Component }: AppProps) {
     <>
       <Head>
         <title>DUN</title>
+
+        <link rel='icon' href='/logo.svg' />
         <script src='https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js' defer></script>
       </Head>
-      <div class='w-full min-h-screen bg-zinc-900 font-sans text-base text-gray-50'>
+      <div class='flex flex-col w-full min-h-screen bg-zinc-900 font-sans text-base text-gray-50'>
         <Navbar />
-        <Component />
+
+        <div class='flex-grow grid grid-place-center'>
+          <Component />
+        </div>
 
         <Footer />
       </div>
