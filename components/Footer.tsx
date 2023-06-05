@@ -12,7 +12,7 @@ export default function Footer() {
           {navigation.map((item) => (
             <a key={item.name} href={item.href} target='_blank' class='text-gray-400 hover:text-gray-500'>
               <span class='sr-only'>{item.name}</span>
-              <Icon icon={item.icon} class='w-6 h-6' />
+              <Icon icon={item.icon} size={6} />
             </a>
           ))}
         </div>
