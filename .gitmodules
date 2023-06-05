@@ -1,0 +1,3 @@
+[submodule "static/x"]
+	path = static/x
+	url = git@github.com:dungsil/x.git
