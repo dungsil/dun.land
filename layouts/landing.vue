@@ -1,17 +1,11 @@
-<script setup lang="ts">
-useHead({
-  title: 'DUN LAND'
-})
-</script>
-
 <template>
-  <div class="flex flex-col w-full min-h-screen bg-zinc-900 font-sans text-base text-gray-50">
-    <dl-landing-navbar />
+  <div class="flex flex-col w-full min-h-screen bg-zinc-900 text-base text-gray-50">
+    <dl-navbar />
 
-    <div class="flex-grow grid place-content-center">
+    <div class="flex-grow grid">
       <slot />
     </div>
 
-    <dl-landing-footer />
+    <dl-footer />
   </div>
 </template>
