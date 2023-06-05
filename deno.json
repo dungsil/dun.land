@@ -6,7 +6,8 @@
     "jsxImportSource": "preact"
   },
   "tasks": {
-    "start": "deno run -A --watch=static/,routes/ dev.ts"
+    "dev": "deno run -A --watch=static/,routes/ dev.ts",
+    "start": "deno run --allow-read --allow-net --allow-env main.ts"
   },
   "fmt": {
     "useTabs": false,
