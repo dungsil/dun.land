@@ -10,7 +10,7 @@ export default function Footer() {
       <div class='mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8'>
         <div class='flex justify-center space-x-6 md:order-2'>
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} target='_blank' class='text-gray-400 hover:text-gray-500'>
+            <a key={item.name} href={item.href} target='_blank' class='inline-block p-3 rounded-md text-gray-400 hover:bg-zinc-800'>
               <span class='sr-only'>{item.name}</span>
               <Icon icon={item.icon} size={6} />
             </a>
