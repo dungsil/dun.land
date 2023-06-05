@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     enabled: isDev
   },
   image: {
-
+    provider: 'netlify'
   },
   tailwindcss: {
     viewer: isDev
