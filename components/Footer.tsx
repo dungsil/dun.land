@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
         <div class='mt-8 md:order-1 md:mt-0'>
           <p class='text-center text-xs leading-5 text-gray-500'>
-            &copy; 2023 DUN LAND
+            &copy; {new Date().getFullYear()} DUN LAND
           </p>
         </div>
       </div>
