@@ -10,7 +10,7 @@ export default function App({ Component }: AppProps) {
         <title>DUN</title>
 
         <link rel='icon' href='/logo.svg' />
-        <script src='https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js' defer></script>
+        <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
       </Head>
       <div class='flex flex-col w-full min-h-screen bg-zinc-900 font-sans text-base text-gray-50'>
         <Navbar />

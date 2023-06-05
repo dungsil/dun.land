@@ -1,3 +1,5 @@
+import Icon from './Icon.tsx'
+
 export default function Footer() {
   const navigation = [
     { name: '깃허브', href: 'https://github.com/dungsil/dun.land', icon: 'simple-icons:github' },
@@ -10,7 +12,7 @@ export default function Footer() {
           {navigation.map((item) => (
             <a key={item.name} href={item.href} target='_blank' class='text-gray-400 hover:text-gray-500'>
               <span class='sr-only'>{item.name}</span>
-              <iconify-icon icon={item.icon} class='h-6 w-6' />
+              <Icon icon={item.icon} class='w-6 h-6' />
             </a>
           ))}
         </div>
