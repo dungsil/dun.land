@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.5.5",
-    "@nuxt/image-edge": "1.0.0-rc.2-28266507.41ef546",
+    "@nuxt/image-edge": "1.0.0-rc.3-28277678.46975fe",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.7.0",
     "eslint": "^8.42.0",
