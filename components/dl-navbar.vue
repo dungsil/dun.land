@@ -4,6 +4,10 @@ const navigations = [
   {
     name: 'CDN x',
     to: '/x'
+  },
+  {
+    name: '상태',
+    to: 'https://up.dun.land'
   }
 ]
 </script>
