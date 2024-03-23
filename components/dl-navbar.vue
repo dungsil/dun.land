@@ -7,7 +7,7 @@ const navigations = [
   },
   {
     name: '상태',
-    to: 'https://up.dun.land'
+    to: 'https://up.kyog.net/'
   }
 ]
 </script>
